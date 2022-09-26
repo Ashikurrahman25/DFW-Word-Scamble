@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
+  m_Name: Level_3
+  m_EditorClassIdentifier: 
+  word: Insurance
+  answers: An|Ace|Can|Scan|Nice|Rain
+  validWords: In|Is|As|Us|Ear|Cues|Nine
+  mainWord: Insurance Risk
+  definition: The chance something harmful or unexpected could happen
+  quizes:
+  - question: Freezing and unfreezing your credit report is free
+    reasoning: 
+    isCorrect: 1
+  - question: Having multiple credit cards with low limits (anything under $1,000)
+      is a good way to build credit
+    reasoning: If you have too many credit cards with low limits, you will actually
+      be deemed not credit worthy
+    isCorrect: 0
+  - question: Your credit score is like a fingerprint, it is unique to you and only
+      you
+    reasoning: 
+    isCorrect: 1

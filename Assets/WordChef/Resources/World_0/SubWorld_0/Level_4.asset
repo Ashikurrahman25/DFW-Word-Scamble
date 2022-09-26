@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
+  m_Name: Level_4
+  m_EditorClassIdentifier: 
+  word: Fiscal
+  answers: As|Calf|Sail|Fail|Fiscal
+  validWords: If|Is
+  mainWord: Fiscal Responsibility
+  definition: The ability to balance between government spending and tax
+  quizes:
+  - question: It is recommended that spouses do not create joint accounts, because
+      joint accounts mean joint debt
+    reasoning: 
+    isCorrect: 1
+  - question: You should avoid AU (Authorized User) accounts
+    reasoning: 
+    isCorrect: 1
+  - question: Having a late payment that is 90 days late, will drop your credit score
+      by 50 points
+    reasoning: It can lower your credit score anywhere from 70-135 points
+    isCorrect: 0

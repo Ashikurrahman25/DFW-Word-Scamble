@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  word: Creditor
+  answers: To|Or|Diet|Edit
+  validWords: To|Or|Diet|Edit|Code|Tired|Tried|It
+  mainWord: Creditor
+  definition: A person or company to whom money is owed
+  quizes:
+  - question: Financial Institution report your credit information to one or more
+      credit bureau every week
+    reasoning: Financial institutions report each month
+    isCorrect: 0
+  - question: You should check your credit report at minimum every two years
+    reasoning: You should check your credit score at least twice a year!
+    isCorrect: 0
+  - question: 'The average credit score in the US is 700 '
+    reasoning: 
+    isCorrect: 1

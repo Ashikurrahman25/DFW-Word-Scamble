@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
+  m_Name: Level_5
+  m_EditorClassIdentifier: 
+  word: Report
+  answers: Roper|Porter|Report|Toe
+  validWords: To|Or|Pore
+  mainWord: Credit Report
+  definition: A statement that has information about your credit activity and current
+    credit situation such as loan paying history and the status of your credit accounts
+  quizes:
+  - question: 'If you have a judgement on your credit card, you should just ignore
+      it. '
+    reasoning: You should never ignore a judgement. It can result in your bank accounts
+      being completely wiped
+    isCorrect: 0
+  - question: If you have paid off all of your credit card, you should shred them
+      and discontinue use
+    reasoning: If you stop using credit for too long, your credit score will actually
+      drop
+    isCorrect: 0
+  - question: Freezing your account will block any new accounts from being added
+      to your report
+    reasoning: 
+    isCorrect: 1
